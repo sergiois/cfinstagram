@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+			<field
+				name="width"
+				type="text"
+                default="100"
+				label="PLG_FIELDS_CFINSTAGRAM_PARAMS_WIDTH_LABEL"
+				description="PLG_FIELDS_CFINSTAGRAM_PARAMS_WIDTH_DESCRIPTION"
+			/>
+			<field
+				name="unitwidth"
+				type="list"
+				default="%"
+				label="PLG_FIELDS_CFINSTAGRAM_PARAMS_UNITWIDTH_LABEL"
+				description="PLG_FIELDS_CFINSTAGRAM_PARAMS_UNITWIDTH_DESCRIPTION"
+			>
+				<option value="px">PLG_FIELDS_CFINSTAGRAM_PARAMS_UNIT_PX</option>
+				<option value="%">PLG_FIELDS_CFINSTAGRAM_PARAMS_UNIT_PERCENT</option>
+			</field>
+			<field
+				name="height"
+				type="text"
+                default="710"
+				label="PLG_FIELDS_CFINSTAGRAM_PARAMS_HEIGHT_LABEL"
+				description="PLG_FIELDS_CFINSTAGRAM_PARAMS_HEIGHT_DESCRIPTION"
+			/>
+			<field
+				name="unitheight"
+				type="list"
+				default="px"
+				label="PLG_FIELDS_CFINSTAGRAM_PARAMS_UNITHEIGHT_LABEL"
+				description="PLG_FIELDS_CFINSTAGRAM_PARAMS_UNITHEIGHT_DESCRIPTION"
+			>
+				<option value="px">PLG_FIELDS_CFINSTAGRAM_PARAMS_UNIT_PX</option>
+				<option value="%">PLG_FIELDS_CFINSTAGRAM_PARAMS_UNIT_PERCENT</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>
