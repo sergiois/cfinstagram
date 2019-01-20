@@ -21,6 +21,10 @@ To integrate the photo in the article you need to enter the id of the photo:
 ### Version 1.0.0 [2017-07-18]
 * **[Added]** Iframe option without customization
 
+### Version 1.0.1 [2019-01-20]
+* **[Added]** Changes to upload plugin to the JED
+* **[Changed]** Language files
+
 * * *
 
 ## Copyright & License
